@@ -1,8 +1,10 @@
-﻿// bws.h : Include file for standard system include files,
-// or project specific include files.
+﻿/*
+ * Copyright (C) Buildinger
+ */
 
-#pragma once
+#define BWS_OK 0;
+#define BWS_ERROR -1;
+#define BWS_ABORT -2;
 
-#include <iostream>
-
-// TODO: Reference additional headers your program requires here.
+#define BWS_EXIT_FAILURE 0;
+#define BWS_EXIT_SUCCESS 1;
