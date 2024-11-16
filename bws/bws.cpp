@@ -6,5 +6,5 @@
 
 int main(int argc, char* const* argv) {
 
-	return BWS_ABORT;
+	return BWS_EXIT_SUCCESS;
 }
